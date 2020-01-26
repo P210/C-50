@@ -1,0 +1,28 @@
+h1 {
+    color: rgb(94, 24, 24);
+}
+*{
+    border:solid
+}
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menu{
+    background-color: rgb(101, 95, 160);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
